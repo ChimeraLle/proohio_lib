@@ -44,6 +44,8 @@ function lib.CreateWindow(ExploitName : string)
 	Window.BorderSizePixel = 0
 	Window.Position = UDim2.new(0.200000003, 0, 0.200000003, 0)
 	Window.Size = UDim2.new(0.600000024, 0, 0.600000024, 0)
+	Window.Active = true
+	Window.Draggable = true
 
 	UICorner.CornerRadius = UDim.new(0, 15)
 	UICorner.Parent = Window
