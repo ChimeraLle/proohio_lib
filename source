@@ -182,6 +182,7 @@ function lib.CreateTab(Iconu : string)
 	Tab.CanvasPosition = Vector2.new(0, 13)
 	Tab.ScrollBarThickness = 3
 	Tab.AutomaticCanvasSize = Enum.AutomaticSize.Y
+	Tab.Visible = false
 
 	UIListLayout.Parent = Tab
 	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
