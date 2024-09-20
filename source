@@ -431,6 +431,10 @@ function lib.CreateToggle(Table : {})
 	
 	if Table[2] then
 		Toggle = Table[2]
+		if Toggle then
+			Frame_2.Position = Udim2.new(0.5, 0, 0, 0)
+			Table[3](true)
+		end
 	end
 
 	Frame.InputEnded:Connect(function(inp)
