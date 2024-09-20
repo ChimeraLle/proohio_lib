@@ -1,6 +1,10 @@
 # proohio_lib
 
+# ----------
+
 # how to use
+
+# ----------
 
 # 1. first load the lib
 ```lua
