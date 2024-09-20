@@ -38,7 +38,7 @@ end})
 
 7. create toggle
 ```lua
-lib.CreateToggle({"Text of Toggle", function(Boolean)
+lib.CreateToggle({"Text of Toggle", false, function(Boolean)
 	if Boolean then
 		print("Bool Is True")
 	else
