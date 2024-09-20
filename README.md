@@ -4,7 +4,7 @@ how to use
 
 1. first load the lib
 ```lua
-local lib = loadstring("https://raw.githubusercontent.com/ChimeraLle/MyScripts/main/proohio_lib")()
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/ChimeraLle/proohio_lib/refs/heads/main/source"))()
 ```
 
 2. create window
